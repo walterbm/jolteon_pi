@@ -10,6 +10,7 @@ app.get('/', function (req, res) {
 
 app.get('/led', function (req, res) {
   led.writeSync(led.readSync() === 0 ? 1 : 0);
+  res.send(`led status ${led.readSync()}`);
 });
 
 app.listen(3000, function () {
