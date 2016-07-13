@@ -40,3 +40,5 @@
   - [Set up a Node application for production](Set Up a Node.js Application)
 
   - [Set up PM2 on Rasbian](http://www.arroyocode.com/raspberry-pi-nodejs-web-server-with-pm2/)
+
+  - [Raspberry Pi 3 GPIO pinout guide](http://pinout.xyz/)
